@@ -1,0 +1,34 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jspm": "^0.5.7",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.3.0",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-watch": "^4.3.5",
+    "jspm": "^0.16.29"
+  },
+  "jspm": {
+    "dependencies": {
+      "handlebars": "github:components/handlebars.js@^4.0.5",
+      "hbs": "github:davis/plugin-hbs@^1.2.1",
+      "jquery": "npm:jquery@^2.2.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "clean-css": "npm:clean-css@^3.4.9",
+      "core-js": "npm:core-js@^1.1.4",
+      "css": "github:systemjs/plugin-css@^0.1.20"
+    }
+  }
+}
